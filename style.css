@@ -73,10 +73,7 @@ footer {
   margin: 0 auto;     /* se ha un max-width lo centra */
   padding: 20px;
 }
-.footer-content {
-  max-width: 800px;
-  margin: 0 auto;
-}
+
 
 .back-to-top {
   display: inline-block;
