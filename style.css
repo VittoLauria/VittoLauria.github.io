@@ -1,5 +1,5 @@
 body {
-    font-family: 'Savate', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 20px;
     padding: 10px;
     line-height: 1.5;
@@ -23,7 +23,22 @@ nav a {
     font-size: 2.5vw;
     border-bottom-color: #000000;
 }
-
+.btn-top {
+  display: inline-block;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: all 0.3s ease-in-out;
+}
+.btn-top:hover {
+  background: linear-gradient(135deg, #00f2fe, #4facfe);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+}
 section {
     padding: 20px;
     margin: 10px;
@@ -52,6 +67,56 @@ main {
     display: flex;
     justify-content: center;
 }
+footer {
+  text-align: center; /* centra il testo */
+  width: 100%;        /* occupa tutta la larghezza */
+  margin: 0 auto;     /* se ha un max-width lo centra */
+  padding: 20px;
+}
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.back-to-top {
+  display: inline-block;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.back-to-top:hover {
+  background: linear-gradient(135deg, #00f2fe, #4facfe);
+  transform: translateY(-4px);
+}
+
+.socials {
+  margin: 15px 0;
+}
+
+.socials a {
+  color: #eee;
+  margin: 0 10px;
+  font-size: 20px;
+  transition: color 0.3s;
+}
+
+.socials a:hover {
+  color: #00f2fe;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 15px;
+}
+
 
 .btn-danger {
     margin: 1vw auto;
