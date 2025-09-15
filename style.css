@@ -4,6 +4,7 @@ body {
     padding: 10px;
     line-height: 3;
     font-size: 30px;
+   
 }
 .card {
   margin-bottom: 20px; /* Aggiunge spazio verticale tra le card */
@@ -66,6 +67,7 @@ footer {
   width: 100%;        /* occupa tutta la larghezza */
   margin: 0 auto;     /* se ha un max-width lo centra */
   padding: 20px;
+ 
 }
 
 
