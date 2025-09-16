@@ -4,16 +4,23 @@ body {
     padding: 10px;
     line-height: 3;
     font-size: 30px;
+    background-color: #8b9fc5 !important;
    
 }
 .card {
   margin-bottom: 20px; /* Aggiunge spazio verticale tra le card */
   size: 15cm;
+  border: #000000;
   
 }
 .card-sm{
      max-width: 400px; /* imposta larghezza massima */
      font-size: 1rem; /* riduci un po' la dimensione del testo */
+}
+.card-img-top {
+    padding: 15px;
+    object-fit: contain;
+    background-color: transparent;
 }
 .d-flex {
   margin-top: 30px /* spazio sopra il gruppo di card */
@@ -45,6 +52,7 @@ nav a {
 section {
     padding: 5px;
     margin: 20px;
+    background-color: 
     
 }
 
