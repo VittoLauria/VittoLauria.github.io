@@ -8,6 +8,7 @@ body {
 }
 .card {
   margin-bottom: 20px; /* Aggiunge spazio verticale tra le card */
+  size: 15cm;
   
 }
 .d-flex {
