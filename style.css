@@ -3,8 +3,8 @@ body {
     margin: 20px;
     padding: 10px;
     line-height: 3;
-    font-size: 30px;
-    background-color: #8b9fc5 !important;
+    font-size: 50px;
+    background-color: #96afdc !important;
    
 }
 .card {
@@ -51,9 +51,7 @@ nav a {
 
 section {
     padding: 5px;
-    margin: 20px;
-    background-color: 
-    
+    margin: 20px; 
 }
 
 div {
